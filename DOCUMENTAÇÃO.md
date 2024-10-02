@@ -33,3 +33,67 @@ O fluxo correto de Git é:
 	2.	Fazer o commit com git commit, que grava as alterações no histórico do repositório local.
 	3.	Enviar as alterações com git push, que envia as alterações para o repositório remoto no GitHub.
 
+# University of Satoshi - Plano de Estudos
+
+Este documento acompanha o progresso do plano de estudos para aprender desenvolvimento relacionado a Bitcoin.
+
+## Semana 1: Consolidação de JavaScript
+
+### 1. Variáveis (`let` e `const`)
+
+- **`let`**: Usamos `let` para declarar variáveis cujo valor pode mudar ao longo do programa.
+  - Exemplo: 
+    ```javascript
+    let idade = 25;
+    idade = 26;  // Posso alterar o valor de 'idade'
+    ```
+
+- **`const`**: Usamos `const` para declarar variáveis cujo valor **não pode mudar** após serem definidas.
+
+### 2. Loops (`for`)
+
+- Usamos o loop `for` para repetir uma ação.
+  - Exemplo:
+    ```javascript
+    for (let i = 0; i < 5; i++) {
+      console.log(i);
+    }
+    ```
+
+### 3. Funções
+
+- Funções são blocos de código reutilizáveis.
+  - Exemplo de função:
+    ```javascript
+    function converterEurosParaSatoshis(euros, valorBitcoin) {
+      let satoshis = (euros / valorBitcoin) * 100000000;
+      return satoshis;
+    }
+    ```
+
+### 4. Arrays
+
+- Arrays armazenam vários valores numa única variável.
+  - Exemplo:
+    ```javascript
+    let numeros = [10, 20, 30];
+    console.log(numeros[0]);  // Imprime 10
+    ```
+
+---
+
+## Semana 2: Introdução ao Bitcoin e criação de carteira
+
+(Ainda por documentar...)
+
+---
+
+## Semana 3: Python e Bitcoin Libraries
+
+(Ainda por documentar...)
+
+---
+
+## Semana X: Projeto final - Criar ATM para conversão de moedas em satoshis
+
+(Ainda por documentar...)
