@@ -27,3 +27,9 @@ git push origin main
 Este comando envia (ou “faz o push”) das tuas alterações para o repositório remoto no GitHub, sincronizando o que fizeste localmente com o repositório na nuvem.
 
 
+O fluxo correto de Git é:
+
+	1.	Adicionar as alterações com git add, que coloca os ficheiros no “stage” para serem guardados.
+	2.	Fazer o commit com git commit, que grava as alterações no histórico do repositório local.
+	3.	Enviar as alterações com git push, que envia as alterações para o repositório remoto no GitHub.
+
